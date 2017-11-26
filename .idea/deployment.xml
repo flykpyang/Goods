@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="MMRemote">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../fly" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="MaMaRomote">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../fly" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="RomoteTomcat">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../fly" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

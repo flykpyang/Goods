@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://120.25.164.168:3306</property>
+        <mapping class="com.goods.cn.po.OrderInfo"/>
+        <mapping class="com.goods.cn.po.Lock"/>
+        <mapping class="com.goods.cn.po.UserInfo"/>
+        <mapping class="com.goods.cn.po.GoodsInfo"/>
+        <mapping class="com.goods.cn.po.Type"/>
+        <mapping class="com.goods.cn.po.Realprize"/>
+        <mapping class="com.goods.cn.po.Randiscount"/>
+        <mapping class="com.goods.cn.po.Usercard"/>
+        <mapping class="com.goods.cn.po.Action"/>
+        <mapping class="com.goods.cn.po.Discard"/>
+        <mapping class="com.goods.cn.po.Realgoods"/>
+        <mapping class="com.goods.cn.po.Userreal"/>
+        <mapping class="com.goods.cn.po.Vip"/>
+        <mapping class="com.goods.cn.po.Feedback"/>
+        <mapping class="com.goods.cn.po.Fixtimegoodslog"/>
+        <mapping class="com.goods.cn.po.App"/>
+        <mapping class="com.goods.cn.po.ActionRout"/>
+        <mapping class="com.goods.cn.po.Userupdatelog"/>
+        <mapping class="com.goods.cn.po.Userbuylog"/>
+        <mapping class="com.goods.cn.po.Lottery"/>
+        <mapping class="com.goods.cn.po.Template"/>
+        <mapping class="com.goods.cn.po.Useraddress"/>
+        <mapping class="com.goods.cn.po.Adddic"/>
+        <mapping class="com.goods.cn.po.Faretemplate"/>
+        <mapping class="com.goods.cn.po.Taskpro"/>
+        <mapping class="com.goods.cn.po.Task"/>
+        <mapping class="com.goods.cn.po.Faredes"/>
+        <mapping class="com.goods.cn.po.Water"/>
+        <mapping class="com.goods.cn.po.Exceptionlog"/>
+        <mapping class="com.goods.cn.po.Share"/>
+        <mapping class="com.goods.cn.po.Sharedic"/>
+        <mapping class="com.goods.cn.po.Love"/>
+        <mapping class="com.goods.cn.po.Attachgoods"/>
+        <!--开启缓存-->
+
+
+
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Template"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Type"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Discard"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Realgoods"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Randiscount"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Realprize"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Action"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Vip"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.UserInfo"/>-->
+        <!--<class-cache usage="read-write" class="com.fxcoffee.cn.po.Lock"/>-->
+        <class-cache usage="read-write" class="com.goods.cn.po.GoodsInfo"/>
+        <class-cache usage="read-write" class="com.goods.cn.po.App"/>
+
+    </session-factory>
+</hibernate-configuration>

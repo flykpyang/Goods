@@ -1,0 +1,17 @@
+package com.goods.cn.observer.message;
+
+import com.fly.cn.config.MessageConfig;
+import com.fly.cn.observes.Message;
+
+import com.goods.cn.po.UserInfo;
+
+
+public class FristLoginMessage extends Message {
+
+    public UserInfo userInfo;
+
+    public FristLoginMessage(UserInfo userInfo) {
+        this.userInfo=userInfo;
+        this.messageid = MessageConfig.FRISTLOGIN;
+    }
+}
